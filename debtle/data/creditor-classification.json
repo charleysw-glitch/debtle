@@ -1,0 +1,1820 @@
+{
+  "001": {
+    "name": "Austria",
+    "sourceName": "Austria",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "002": {
+    "name": "Belgium",
+    "sourceName": "Belgium",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "003": {
+    "name": "Denmark",
+    "sourceName": "Denmark",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "004": {
+    "name": "France",
+    "sourceName": "France",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "005": {
+    "name": "Germany",
+    "sourceName": "Germany, Fed. Rep. of",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "006": {
+    "name": "Italy",
+    "sourceName": "Italy",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "007": {
+    "name": "Netherlands",
+    "sourceName": "Netherlands",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "008": {
+    "name": "Norway",
+    "sourceName": "Norway",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "009": {
+    "name": "Portugal",
+    "sourceName": "Portugal",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "010": {
+    "name": "Sweden",
+    "sourceName": "Sweden",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "011": {
+    "name": "Switzerland",
+    "sourceName": "Switzerland",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "012": {
+    "name": "United Kingdom",
+    "sourceName": "United Kingdom",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "018": {
+    "name": "Finland",
+    "sourceName": "Finland",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "019": {
+    "name": "World Trade Organization",
+    "sourceName": "World Trade Organization",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "020": {
+    "name": "Iceland",
+    "sourceName": "Iceland",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "021": {
+    "name": "Ireland",
+    "sourceName": "Ireland",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "022": {
+    "name": "Luxembourg",
+    "sourceName": "Luxembourg",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "025": {
+    "name": "Andorra",
+    "sourceName": "Andorra",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "026": {
+    "name": "Monaco",
+    "sourceName": "Monaco",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "030": {
+    "name": "Cyprus",
+    "sourceName": "Cyprus",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "035": {
+    "name": "Gibraltar",
+    "sourceName": "Gibraltar",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "040": {
+    "name": "Greece",
+    "sourceName": "Greece",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "044": {
+    "name": "Kosovo",
+    "sourceName": "Kosovo",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "045": {
+    "name": "Malta",
+    "sourceName": "Malta",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "050": {
+    "name": "Spain",
+    "sourceName": "Spain",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "055": {
+    "name": "Türkiye",
+    "sourceName": "Turkiye",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "060": {
+    "name": "Serbia",
+    "sourceName": "Serbia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "061": {
+    "name": "Slovenia",
+    "sourceName": "Slovenia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "062": {
+    "name": "Croatia",
+    "sourceName": "Croatia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "063": {
+    "name": "Yugoslavia",
+    "sourceName": "Yugoslavia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "064": {
+    "name": "Bosnia-Herzegovina",
+    "sourceName": "Bosnia-Herzegovina",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "065": {
+    "name": "Montenegro",
+    "sourceName": "Montenegro",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "066": {
+    "name": "North Macedonia",
+    "sourceName": "North Macedonia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "068": {
+    "name": "Czechia",
+    "sourceName": "Czechia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "069": {
+    "name": "Slovak Republic",
+    "sourceName": "Slovak Republic",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "071": {
+    "name": "Albania",
+    "sourceName": "Albania",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "072": {
+    "name": "Bulgaria",
+    "sourceName": "Bulgaria",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "073": {
+    "name": "Czechoslovakia",
+    "sourceName": "Czechoslovakia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "074": {
+    "name": "German Dem. Rep.",
+    "sourceName": "German Dem. Rep.",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "075": {
+    "name": "Hungary",
+    "sourceName": "Hungary",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "076": {
+    "name": "Poland",
+    "sourceName": "Poland",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "077": {
+    "name": "Romania",
+    "sourceName": "Romania",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "078": {
+    "name": "USSR",
+    "sourceName": "USSR",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "082": {
+    "name": "Estonia",
+    "sourceName": "Estonia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "083": {
+    "name": "Latvia",
+    "sourceName": "Latvia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "084": {
+    "name": "Lithuania",
+    "sourceName": "Lithuania",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "085": {
+    "name": "Ukraine",
+    "sourceName": "Ukraine",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "086": {
+    "name": "Belarus",
+    "sourceName": "Belarus",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "087": {
+    "name": "Russia",
+    "sourceName": "Russian Federation",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "091": {
+    "name": "Armenia",
+    "sourceName": "Armenia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "093": {
+    "name": "Moldova",
+    "sourceName": "Moldova",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "095": {
+    "name": "Georgia",
+    "sourceName": "Georgia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "130": {
+    "name": "Algeria",
+    "sourceName": "Algeria",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "133": {
+    "name": "Libya",
+    "sourceName": "Libya",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "136": {
+    "name": "Morocco",
+    "sourceName": "Morocco",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "139": {
+    "name": "Tunisia",
+    "sourceName": "Tunisia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "142": {
+    "name": "Egypt",
+    "sourceName": "Egypt",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "216": {
+    "name": "South Africa",
+    "sourceName": "South Africa",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "225": {
+    "name": "Angola",
+    "sourceName": "Angola",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "227": {
+    "name": "Botswana",
+    "sourceName": "Botswana",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "228": {
+    "name": "Burundi",
+    "sourceName": "Burundi",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "229": {
+    "name": "Cameroon",
+    "sourceName": "Cameroon",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "230": {
+    "name": "Cabo Verde",
+    "sourceName": "Cabo Verde",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "231": {
+    "name": "Central African Republic",
+    "sourceName": "Central African Republic",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "232": {
+    "name": "Chad",
+    "sourceName": "Chad",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "233": {
+    "name": "Comoros",
+    "sourceName": "Comoros",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "234": {
+    "name": "Congo, Rep.",
+    "sourceName": "Congo, Rep.",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "235": {
+    "name": "Congo, Dem. Rep.",
+    "sourceName": "Congo, Dem. Rep.",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "236": {
+    "name": "Benin",
+    "sourceName": "Benin",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "237": {
+    "name": "East African Community",
+    "sourceName": "East African Community",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "238": {
+    "name": "Ethiopia",
+    "sourceName": "Ethiopia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "239": {
+    "name": "Gabon",
+    "sourceName": "Gabon",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "240": {
+    "name": "Gambia, The",
+    "sourceName": "Gambia, The",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "241": {
+    "name": "Ghana",
+    "sourceName": "Ghana",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "243": {
+    "name": "Guinea",
+    "sourceName": "Guinea",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "244": {
+    "name": "Guinea-Bissau",
+    "sourceName": "Guinea-Bissau",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "245": {
+    "name": "Equatorial Guinea",
+    "sourceName": "Equatorial Guinea",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "247": {
+    "name": "Côte d’Ivoire",
+    "sourceName": "Cote D`Ivoire, Republic Of",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "248": {
+    "name": "Kenya",
+    "sourceName": "Kenya",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "249": {
+    "name": "Lesotho",
+    "sourceName": "Lesotho",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "251": {
+    "name": "Liberia",
+    "sourceName": "Liberia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "252": {
+    "name": "Madagascar",
+    "sourceName": "Madagascar",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "253": {
+    "name": "Malawi",
+    "sourceName": "Malawi",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "255": {
+    "name": "Mali",
+    "sourceName": "Mali",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "256": {
+    "name": "Mauritania",
+    "sourceName": "Mauritania",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "257": {
+    "name": "Mauritius",
+    "sourceName": "Mauritius",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "259": {
+    "name": "Mozambique",
+    "sourceName": "Mozambique",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "260": {
+    "name": "Niger",
+    "sourceName": "Niger",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "261": {
+    "name": "Nigeria",
+    "sourceName": "Nigeria",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "264": {
+    "name": "Reunion",
+    "sourceName": "Reunion",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "265": {
+    "name": "Zimbabwe",
+    "sourceName": "Zimbabwe",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "266": {
+    "name": "Rwanda",
+    "sourceName": "Rwanda",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "268": {
+    "name": "Sao Tome & Principe",
+    "sourceName": "Sao Tome & Principe",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "269": {
+    "name": "Senegal",
+    "sourceName": "Senegal",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "270": {
+    "name": "Seychelles",
+    "sourceName": "Seychelles",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "271": {
+    "name": "Eritrea",
+    "sourceName": "Eritrea",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "272": {
+    "name": "Sierra Leone",
+    "sourceName": "Sierra Leone",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "273": {
+    "name": "Somalia, Fed. Rep.",
+    "sourceName": "Somalia, Fed. Rep.",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "274": {
+    "name": "Djibouti",
+    "sourceName": "Djibouti",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "275": {
+    "name": "Namibia",
+    "sourceName": "Namibia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "278": {
+    "name": "Sudan",
+    "sourceName": "Sudan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "280": {
+    "name": "Eswatini",
+    "sourceName": "Eswatini",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "282": {
+    "name": "Tanzania",
+    "sourceName": "Tanzania",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "283": {
+    "name": "Togo",
+    "sourceName": "Togo",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "285": {
+    "name": "Uganda",
+    "sourceName": "Uganda",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "287": {
+    "name": "Burkina Faso",
+    "sourceName": "Burkina Faso",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "288": {
+    "name": "Zambia",
+    "sourceName": "Zambia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "301": {
+    "name": "Canada",
+    "sourceName": "Canada",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "302": {
+    "name": "United States",
+    "sourceName": "United States",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "328": {
+    "name": "Bahamas",
+    "sourceName": "Bahamas",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "329": {
+    "name": "Barbados",
+    "sourceName": "Barbados",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "331": {
+    "name": "Bermuda",
+    "sourceName": "Bermuda",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "336": {
+    "name": "Costa Rica",
+    "sourceName": "Costa Rica",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "338": {
+    "name": "Cuba",
+    "sourceName": "Cuba",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "340": {
+    "name": "Dominican Republic",
+    "sourceName": "Dominican Republic",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "342": {
+    "name": "El Salvador",
+    "sourceName": "El Salvador",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "345": {
+    "name": "Guadeloupe",
+    "sourceName": "Guadeloupe",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "347": {
+    "name": "Guatemala",
+    "sourceName": "Guatemala",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "349": {
+    "name": "Haiti",
+    "sourceName": "Haiti",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "351": {
+    "name": "Honduras",
+    "sourceName": "Honduras",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "352": {
+    "name": "Belize",
+    "sourceName": "Belize",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "354": {
+    "name": "Jamaica",
+    "sourceName": "Jamaica",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "358": {
+    "name": "Mexico",
+    "sourceName": "Mexico",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "361": {
+    "name": "Neth. Antilles",
+    "sourceName": "Neth. Antilles",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "364": {
+    "name": "Nicaragua",
+    "sourceName": "Nicaragua",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "366": {
+    "name": "Panama",
+    "sourceName": "Panama",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "368": {
+    "name": "Puerto Rico",
+    "sourceName": "Puerto Rico",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "373": {
+    "name": "Aruba",
+    "sourceName": "Aruba",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "375": {
+    "name": "Trinidad & Tobago",
+    "sourceName": "Trinidad & Tobago",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "376": {
+    "name": "Anguilla",
+    "sourceName": "Anguilla",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "377": {
+    "name": "Antigua",
+    "sourceName": "Antigua",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "378": {
+    "name": "Dominica",
+    "sourceName": "Dominica",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "379": {
+    "name": "Virgin Is.(US)",
+    "sourceName": "Virgin Is.(US)",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "381": {
+    "name": "Grenada",
+    "sourceName": "Grenada",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "382": {
+    "name": "St. Kitts And Nevis",
+    "sourceName": "St. Kitts And Nevis",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "383": {
+    "name": "St. Lucia",
+    "sourceName": "St. Lucia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "384": {
+    "name": "St. Vincent & The Grenadines",
+    "sourceName": "St. Vincent & The Grenadines",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "386": {
+    "name": "Cayman Islands",
+    "sourceName": "Cayman Islands",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "425": {
+    "name": "Argentina",
+    "sourceName": "Argentina",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "428": {
+    "name": "Bolivia",
+    "sourceName": "Bolivia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "431": {
+    "name": "Brazil",
+    "sourceName": "Brazil",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "434": {
+    "name": "Chile",
+    "sourceName": "Chile",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "437": {
+    "name": "Colombia",
+    "sourceName": "Colombia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "440": {
+    "name": "Ecuador",
+    "sourceName": "Ecuador",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "446": {
+    "name": "Guyana",
+    "sourceName": "Guyana",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "451": {
+    "name": "Paraguay",
+    "sourceName": "Paraguay",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "454": {
+    "name": "Peru",
+    "sourceName": "Peru",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "457": {
+    "name": "Suriname",
+    "sourceName": "Suriname",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "460": {
+    "name": "Uruguay",
+    "sourceName": "Uruguay",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "463": {
+    "name": "Venezuela, Republic Bolivarian",
+    "sourceName": "Venezuela, Republic Bolivarian",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "520": {
+    "name": "Azerbaijan",
+    "sourceName": "Azerbaijan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "521": {
+    "name": "Kazakhstan",
+    "sourceName": "Kazakhstan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "522": {
+    "name": "Kyrgyz Republic",
+    "sourceName": "Kyrgyz Republic",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "523": {
+    "name": "Uzbekistan",
+    "sourceName": "Uzbekistan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "524": {
+    "name": "Tajikistan",
+    "sourceName": "Tajikistan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "525": {
+    "name": "Turkmenistan",
+    "sourceName": "Turkmenistan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "530": {
+    "name": "Bahrain",
+    "sourceName": "Bahrain",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "540": {
+    "name": "Iran",
+    "sourceName": "Iran, Islamic Republic Of",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "543": {
+    "name": "Iraq",
+    "sourceName": "Iraq",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "546": {
+    "name": "Israel",
+    "sourceName": "Israel",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "549": {
+    "name": "Jordan",
+    "sourceName": "Jordan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "552": {
+    "name": "Kuwait",
+    "sourceName": "Kuwait",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "555": {
+    "name": "Lebanon",
+    "sourceName": "Lebanon",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "558": {
+    "name": "Oman",
+    "sourceName": "Oman",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "561": {
+    "name": "Qatar",
+    "sourceName": "Qatar",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "566": {
+    "name": "Saudi Arabia",
+    "sourceName": "Saudi Arabia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "573": {
+    "name": "Syrian Arab Republic",
+    "sourceName": "Syrian Arab Republic",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "576": {
+    "name": "United Arab Emirates",
+    "sourceName": "United Arab Emirates",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "580": {
+    "name": "Yemen, Republic Of",
+    "sourceName": "Yemen, Republic Of",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "625": {
+    "name": "Afghanistan",
+    "sourceName": "Afghanistan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "630": {
+    "name": "Bhutan",
+    "sourceName": "Bhutan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "635": {
+    "name": "Myanmar",
+    "sourceName": "Myanmar",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "640": {
+    "name": "Sri Lanka",
+    "sourceName": "Sri Lanka",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "646": {
+    "name": "India",
+    "sourceName": "India",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "655": {
+    "name": "Maldives",
+    "sourceName": "Maldives",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "660": {
+    "name": "Nepal",
+    "sourceName": "Nepal",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "665": {
+    "name": "Pakistan",
+    "sourceName": "Pakistan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "666": {
+    "name": "Bangladesh",
+    "sourceName": "Bangladesh",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "701": {
+    "name": "Japan",
+    "sourceName": "Japan",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "725": {
+    "name": "Brunei",
+    "sourceName": "Brunei",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "728": {
+    "name": "Cambodia",
+    "sourceName": "Cambodia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "730": {
+    "name": "China",
+    "sourceName": "China",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "734": {
+    "name": "Guam",
+    "sourceName": "Guam",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "735": {
+    "name": "Hong Kong",
+    "sourceName": "Hong Kong",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "738": {
+    "name": "Indonesia",
+    "sourceName": "Indonesia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "740": {
+    "name": "Korea, D.P.R. of",
+    "sourceName": "Korea, D.P.R. of",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "742": {
+    "name": "South Korea",
+    "sourceName": "Korea, Republic of",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "745": {
+    "name": "Lao People's Democratic Rep.",
+    "sourceName": "Lao People's Democratic Rep.",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "748": {
+    "name": "Macao",
+    "sourceName": "Macao",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "751": {
+    "name": "Malaysia",
+    "sourceName": "Malaysia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "753": {
+    "name": "Mongolia",
+    "sourceName": "Mongolia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "755": {
+    "name": "Philippines",
+    "sourceName": "Philippines",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "761": {
+    "name": "Singapore",
+    "sourceName": "Singapore",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "764": {
+    "name": "Thailand",
+    "sourceName": "Thailand",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "765": {
+    "name": "Timor-Leste",
+    "sourceName": "Timor-Leste",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "769": {
+    "name": "Vietnam",
+    "sourceName": "Viet Nam",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "801": {
+    "name": "Australia",
+    "sourceName": "Australia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "802": {
+    "name": "UN-UNETPSA",
+    "sourceName": "UN-UNETPSA",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "803": {
+    "name": "UN-Office on Drugs and Crime (UNDCP)",
+    "sourceName": "UN-Office on Drugs and Crime (UNDCP)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "804": {
+    "name": "UN-Fund for Human Rights",
+    "sourceName": "UN-Fund for Human Rights",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "806": {
+    "name": "UN-Development Fund for Women (UNIFEM)",
+    "sourceName": "UN-Development Fund for Women (UNIFEM)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "807": {
+    "name": "UN-Environment Programme (UNEP)",
+    "sourceName": "UN-Environment Programme (UNEP)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "808": {
+    "name": "UN-General Assembly (UNGA)",
+    "sourceName": "UN-General Assembly (UNGA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "809": {
+    "name": "UN-INSTRAW",
+    "sourceName": "UN-INSTRAW",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "810": {
+    "name": "Colombo Plan",
+    "sourceName": "Colombo Plan",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "811": {
+    "name": "Global Environment Facility",
+    "sourceName": "Global Environment Facility",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "812": {
+    "name": "Montreal Protocol Fund",
+    "sourceName": "Montreal Protocol Fund",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "813": {
+    "name": "UN-Fund for Drug Abuse Control (UNFDAC)",
+    "sourceName": "UN-Fund for Drug Abuse Control (UNFDAC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "814": {
+    "name": "UN-World Intellectual Property Organization",
+    "sourceName": "UN-World Intellectual Property Organization",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "815": {
+    "name": "African Export-Import Bank",
+    "sourceName": "African Export-Import Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "816": {
+    "name": "Caribbean Community (CARICOM)",
+    "sourceName": "Caribbean Community (CARICOM)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "817": {
+    "name": "Trade and Development Bank",
+    "sourceName": "Eastern & Southern African Trade & Dev. Bank (TDB)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "820": {
+    "name": "New Zealand",
+    "sourceName": "New Zealand",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "832": {
+    "name": "Fiji",
+    "sourceName": "Fiji",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "836": {
+    "name": "Kiribati",
+    "sourceName": "Kiribati",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "840": {
+    "name": "French Polynesia",
+    "sourceName": "French Polynesia",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "850": {
+    "name": "New Caledonia (Fr.)",
+    "sourceName": "New Caledonia (Fr.)",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "854": {
+    "name": "Vanuatu",
+    "sourceName": "Vanuatu",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "858": {
+    "name": "Pacific Is. (Us)",
+    "sourceName": "Pacific Is. (Us)",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "860": {
+    "name": "Micronesia Fed Sts",
+    "sourceName": "Micronesia Fed Sts",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "862": {
+    "name": "Papua New Guinea",
+    "sourceName": "Papua New Guinea",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "866": {
+    "name": "Solomon Islands",
+    "sourceName": "Solomon Islands",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "870": {
+    "name": "Tonga",
+    "sourceName": "Tonga",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "877": {
+    "name": "International Bank for Economic Cooperation (IBEC)",
+    "sourceName": "International Bank for Economic Cooperation (IBEC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "878": {
+    "name": "UN-Regular Programme of Technical Coop. (RPTC)",
+    "sourceName": "UN-Regular Programme of Technical Coop. (RPTC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "880": {
+    "name": "Samoa",
+    "sourceName": "Samoa",
+    "type": "bilateral",
+    "note": "Individual creditor country/territory (including historical sovereign counterparts)."
+  },
+  "887": {
+    "name": "New Development Bank (NDB)",
+    "sourceName": "New Development Bank (NDB)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "888": {
+    "name": "Econ. Comm. of the Great Lakes Countries (ECGLC)",
+    "sourceName": "Econ. Comm. of the Great Lakes Countries (ECGLC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "890": {
+    "name": "Bolivarian Alliance for the Americas (ALBA)",
+    "sourceName": "Bolivarian Alliance for the Americas (ALBA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "892": {
+    "name": "Fondo Latinoamericano de Reservas (FLAR)",
+    "sourceName": "Fondo Latinoamericano de Reservas (FLAR)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "893": {
+    "name": "ECO Trade and Dev. Bank",
+    "sourceName": "ECO Trade and Dev. Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "895": {
+    "name": "International Coffee Organization (ICO)",
+    "sourceName": "International Coffee Organization (ICO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "896": {
+    "name": "Africa Finance Corporation",
+    "sourceName": "Africa Finance Corporation",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "897": {
+    "name": "Arab International Bank",
+    "sourceName": "Arab International Bank",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "898": {
+    "name": "Plata Basin Financial Dev. Fund",
+    "sourceName": "Plata Basin Financial Dev. Fund",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "899": {
+    "name": "Asian Infrastructure Investment Bank",
+    "sourceName": "Asian Infrastructure Investment Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "901": {
+    "name": "World Bank–IBRD",
+    "sourceName": "World Bank-IBRD",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "902": {
+    "name": "World Bank-MIGA",
+    "sourceName": "World Bank-MIGA",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "903": {
+    "name": "International Finance Corporation",
+    "sourceName": "International Finance Corporation",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "904": {
+    "name": "International Investment Bank (IIB)",
+    "sourceName": "International Investment Bank (IIB)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "905": {
+    "name": "World Bank–IDA",
+    "sourceName": "World Bank-IDA",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "906": {
+    "name": "Caribbean Dev. Bank",
+    "sourceName": "Caribbean Dev. Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "907": {
+    "name": "IMF",
+    "sourceName": "International Monetary Fund",
+    "type": "imf",
+    "note": "IMF credit: use only DT.DOD.DIMF.US.CD / 907."
+  },
+  "909": {
+    "name": "Inter-American Development Bank",
+    "sourceName": "Inter-American Dev. Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "910": {
+    "name": "Central American Bank for Econ. Integration (BCIE)",
+    "sourceName": "Central American Bank for Econ. Integration (BCIE)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "911": {
+    "name": "Bank for International Settlements (BIS)",
+    "sourceName": "Bank for International Settlements (BIS)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "913": {
+    "name": "African Development Bank",
+    "sourceName": "African Dev. Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "915": {
+    "name": "Asian Development Bank",
+    "sourceName": "Asian Dev. Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "917": {
+    "name": "European Economic Community (EEC)",
+    "sourceName": "European Economic Community (EEC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "918": {
+    "name": "European Development Fund (EDF)",
+    "sourceName": "European Development Fund (EDF)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "919": {
+    "name": "European Investment Bank",
+    "sourceName": "European Investment Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "920": {
+    "name": "CAF – Development Bank of Latin America",
+    "sourceName": "Corporacion Andina de Fomento",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "921": {
+    "name": "Arab Fund for Economic & Social Development",
+    "sourceName": "Arab Fund for Economic & Social Development",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "922": {
+    "name": "Arab African International Bank",
+    "sourceName": "Arab African International Bank",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "924": {
+    "name": "European Coal and Steel Community (ECSC)",
+    "sourceName": "European Coal and Steel Community (ECSC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "925": {
+    "name": "UN-Industrial Development Organization (UNIDO)",
+    "sourceName": "UN-Industrial Development Organization (UNIDO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "926": {
+    "name": "Council of Europe",
+    "sourceName": "Council of Europe",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "927": {
+    "name": "EUROFIMA",
+    "sourceName": "EUROFIMA",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "931": {
+    "name": "World Health Organization",
+    "sourceName": "World Health Organization",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "932": {
+    "name": "Food and Agriculture Organization (FAO)",
+    "sourceName": "Food and Agriculture Organization (FAO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "933": {
+    "name": "UN-World Meteorological Organization",
+    "sourceName": "UN-World Meteorological Organization",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "939": {
+    "name": "Latin Amer. Conf. of Saving & Credit Coop. (COLAC)",
+    "sourceName": "Latin Amer. Conf. of Saving & Credit Coop. (COLAC)",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "940": {
+    "name": "International Labour Organization (ILO)",
+    "sourceName": "International Labour Organization (ILO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "942": {
+    "name": "UN-Educ., Scientific and Cultural Org. (UNESCO)",
+    "sourceName": "UN-Educ., Scientific and Cultural Org. (UNESCO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "946": {
+    "name": "Latin American Agribusiness Dev. Corp. (LAAD)",
+    "sourceName": "Latin American Agribusiness Dev. Corp. (LAAD)",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "947": {
+    "name": "Arab League",
+    "sourceName": "Arab League",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "948": {
+    "name": "Entente Council",
+    "sourceName": "Entente Council",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "950": {
+    "name": "Nordic Development Fund",
+    "sourceName": "Nordic Development Fund",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "951": {
+    "name": "OPEC Fund",
+    "sourceName": "OPEC Fund for International Dev.",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "952": {
+    "name": "Org. of Arab Petroleum Exporting Countries (OAPEC)",
+    "sourceName": "Org. of Arab Petroleum Exporting Countries (OAPEC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "953": {
+    "name": "BADEA",
+    "sourceName": "Arab Bank for Economic Dev. in Africa (BADEA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "957": {
+    "name": "West African Development Bank - BOAD",
+    "sourceName": "West African Development Bank - BOAD",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "958": {
+    "name": "European Relief Fund",
+    "sourceName": "European Relief Fund",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "959": {
+    "name": "UN-Development Programme (UNDP)",
+    "sourceName": "UN-Development Programme (UNDP)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "960": {
+    "name": "UN-Regular Programme of Technical Assistance",
+    "sourceName": "UN-Regular Programme of Technical Assistance",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "961": {
+    "name": "European Social Fund (ESF)",
+    "sourceName": "European Social Fund (ESF)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "962": {
+    "name": "Foreign Trade Bank of Latin America (BLADEX)",
+    "sourceName": "Foreign Trade Bank of Latin America (BLADEX)",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "963": {
+    "name": "UN-Children's Fund (UNICEF)",
+    "sourceName": "UN-Children's Fund (UNICEF)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "964": {
+    "name": "UN-Relief and Works Agency (UNRWA)",
+    "sourceName": "UN-Relief and Works Agency (UNRWA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "966": {
+    "name": "UN-World Food Programme (WFP)",
+    "sourceName": "UN-World Food Programme (WFP)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "967": {
+    "name": "UN-High Commissioner for Refugees (UNHCR)",
+    "sourceName": "UN-High Commissioner for Refugees (UNHCR)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "969": {
+    "name": "Nordic Investment Bank",
+    "sourceName": "Nordic Investment Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "970": {
+    "name": "West African Monetary Union (UMOA)",
+    "sourceName": "West African Monetary Union (UMOA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "971": {
+    "name": "Central Bank of West African States (BCEAO)",
+    "sourceName": "Central Bank of West African States (BCEAO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "973": {
+    "name": "Arab Monetary Fund",
+    "sourceName": "Arab Monetary Fund",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "974": {
+    "name": "UN-Population Fund (UNFPA)",
+    "sourceName": "UN-Population Fund (UNFPA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "975": {
+    "name": "European Union",
+    "sourceName": "European Union",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "976": {
+    "name": "Islamic Dev. Bank",
+    "sourceName": "Islamic Dev. Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "977": {
+    "name": "Eurasian Development Bank",
+    "sourceName": "Eurasian Development Bank",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "978": {
+    "name": "Nordic Environment Finance Corporation (NEFCO)",
+    "sourceName": "Nordic Environment Finance Corporation (NEFCO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "979": {
+    "name": "Islamic Solidarity Fund for Dev. (ISFD)",
+    "sourceName": "Islamic Solidarity Fund for Dev. (ISFD)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "980": {
+    "name": "Arab Fund for Tech. Assist. to African Countries",
+    "sourceName": "Arab Fund for Tech. Assist. to African Countries",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "983": {
+    "name": "Arab Towns Organization (ATO)",
+    "sourceName": "Arab Towns Organization (ATO)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "987": {
+    "name": "European Free Trade Association (EFTA)",
+    "sourceName": "European Free Trade Association (EFTA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "988": {
+    "name": "International Fund for Agricultural Development",
+    "sourceName": "International Fund for Agricultural Dev.",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "990": {
+    "name": "European Bank for Reconstruction and Dev. (EBRD)",
+    "sourceName": "European Bank for Reconstruction and Dev. (EBRD)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "991": {
+    "name": "South Asian Development Fund (SADF)",
+    "sourceName": "South Asian Development Fund (SADF)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "992": {
+    "name": "Center for Latin American Monetary Studies (CEMLA)",
+    "sourceName": "Center for Latin American Monetary Studies (CEMLA)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "993": {
+    "name": "Dev. Bank of the Central African States (BDEAC)",
+    "sourceName": "Dev. Bank of the Central African States (BDEAC)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "994": {
+    "name": "Multiple Lenders",
+    "sourceName": "Multiple Lenders",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  },
+  "997": {
+    "name": "Economic Community of West African States (ECOWAS)",
+    "sourceName": "Economic Community of West African States (ECOWAS)",
+    "type": "multilateral",
+    "note": "Named international or regional institution."
+  },
+  "BND": {
+    "name": "Bondholders",
+    "sourceName": "Bondholders",
+    "type": "private",
+    "note": "Identifiable private bondholder category."
+  },
+  "FCW": {
+    "name": "Other Multiple Lenders",
+    "sourceName": "Other Multiple Lenders",
+    "type": "other",
+    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+  }
+}

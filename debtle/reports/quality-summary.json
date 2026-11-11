@@ -1,0 +1,95 @@
+{
+  "year": 2025,
+  "source_sha256": "51bb6e4cf00e475bf0573f49364b3a094dcabac83e6168fdd7a0bd4fc81718f8",
+  "source_rows": 81472,
+  "debtor_entries": 134,
+  "counterpart_areas": 304,
+  "individual_countries": 120,
+  "eligible_countries": 120,
+  "excluded_aggregates": [
+    {
+      "iso3": "EAP",
+      "name": "East Asia & Pacific (excluding high income)"
+    },
+    {
+      "iso3": "ECA",
+      "name": "Europe & Central Asia (excluding high income)"
+    },
+    {
+      "iso3": "IDA",
+      "name": "IDA total"
+    },
+    {
+      "iso3": "IDX",
+      "name": "IDA only"
+    },
+    {
+      "iso3": "LAC",
+      "name": "Latin America & Caribbean (excluding high income)"
+    },
+    {
+      "iso3": "LDC",
+      "name": "Least developed countries: UN classification"
+    },
+    {
+      "iso3": "LIC",
+      "name": "Low income"
+    },
+    {
+      "iso3": "LMC",
+      "name": "Lower middle income"
+    },
+    {
+      "iso3": "LMY",
+      "name": "Low & middle income"
+    },
+    {
+      "iso3": "MIC",
+      "name": "Middle income"
+    },
+    {
+      "iso3": "MNA",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)"
+    },
+    {
+      "iso3": "SAS",
+      "name": "South Asia"
+    },
+    {
+      "iso3": "SSA",
+      "name": "Sub-Saharan Africa (excluding high income)"
+    },
+    {
+      "iso3": "UMC",
+      "name": "Upper middle income"
+    }
+  ],
+  "missing_observations": 77204,
+  "observed_zeros": 213,
+  "review_countries": [],
+  "residuals": [
+    {
+      "iso3": "BOL",
+      "country": "Bolivia",
+      "unallocated_ppg_residual": 5011010.799999237,
+      "ppg_discrepancy_percent": 0.0353156504067456
+    },
+    {
+      "iso3": "SRB",
+      "country": "Serbia",
+      "unallocated_ppg_residual": 1000000000.0,
+      "ppg_discrepancy_percent": 3.1083536599848496
+    },
+    {
+      "iso3": "TUR",
+      "country": "Türkiye",
+      "unallocated_ppg_residual": 144458025.00003052,
+      "ppg_discrepancy_percent": 0.07660351495549363
+    }
+  ],
+  "unclassified_codes": [
+    "896",
+    "922",
+    "994"
+  ]
+}
