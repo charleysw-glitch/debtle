@@ -3,6 +3,7 @@ import { hierarchy, treemap, treemapSquarify } from 'd3-hierarchy';
 import { Info, MousePointer2, X } from 'lucide-react';
 import type { Country, Creditor } from '../types';
 import { categories, money, percent } from '../data';
+import { MULTIPLE_LENDERS_DESCRIPTION } from '../data/creditor-info';
 
 interface Node { name:string; value?:number; creditor?:Creditor; children?:Node[] }
 function wrap(name:string,width:number,font:number,maxLines:number) {
@@ -26,7 +27,7 @@ export default function Treemap({country,onInfo}:{country:Country;onInfo:()=>voi
     return treemap<Node>().tile(treemapSquarify.ratio(1.25)).size([width,height]).paddingInner(3).round(true)(root).leaves();
   },[country,width,height]);
   return <section className="map-card" aria-label="Mystery country creditor treemap">
-    <div className="map-toolbar map-toolbar-with-total"><div className="map-debt-total"><span className="eyebrow">OUTSTANDING EXTERNAL DEBT</span><strong>{money(country.totalDebt)}</strong><small>PPG debt + IMF credit · current US$</small></div><span className="map-hint"><MousePointer2 size={13}/><span>Hover or tap to explore</span></span><button className="icon-button mini" onClick={onInfo} aria-label="About the debt data"><Info size={17}/></button></div>
+    <div className="map-toolbar map-toolbar-with-total"><div className="map-debt-total"><span className="eyebrow">PPG EXTERNAL DEBT + IMF CREDIT</span><strong>{money(country.totalDebt)}</strong><small>PPG debt + IMF credit · current US$</small></div><span className="map-hint"><MousePointer2 size={13}/><span>Hover or tap to explore</span></span><button className="icon-button mini" onClick={onInfo} aria-label="About the debt data"><Info size={17}/></button></div>
     <div className="map-stage" ref={host} onPointerLeave={()=>{if(!pinned)setActive(null);}}>
       <svg viewBox={`0 0 ${width} ${height}`} width="100%" height={height} role="group" aria-label="Creditors sized by their share of PPG external debt plus IMF credit">
         <defs>{leaves.map((node,i)=><clipPath key={i} id={`${id}-${i}`}><rect x={node.x0+7} y={node.y0+6} width={Math.max(0,node.x1-node.x0-14)} height={Math.max(0,node.y1-node.y0-12)}/></clipPath>)}</defs>
@@ -42,7 +43,7 @@ export default function Treemap({country,onInfo}:{country:Country;onInfo:()=>voi
           </g>;
         })}
       </svg>
-      {active&&<div className="map-tooltip" role="status" style={{left:Math.max(8,Math.min(width-254,active.x-120)),top:Math.max(8,Math.min(height-142,active.y+16))}}><div className="tooltip-heading"><strong>{active.creditor.name}</strong><button aria-label="Close creditor detail" onClick={()=>{setActive(null);setPinned(false);}}><X size={14}/></button></div><span className="tooltip-category"><i style={{background:categories[active.creditor.type].color}}/>{categories[active.creditor.type].name}</span><div className="tooltip-value">{money(active.creditor.value)}<b>{percent(active.creditor.share)}</b></div><small>of total game debt · current US$</small></div>}
+      {active&&<div className="map-tooltip" role="status" style={{left:Math.max(8,Math.min(width-254,active.x-120)),top:Math.max(8,Math.min(height-(active.creditor.code==='994'?252:142),active.y+16))}}><div className="tooltip-heading"><strong>{active.creditor.name}</strong><button aria-label="Close creditor detail" onClick={()=>{setActive(null);setPinned(false);}}><X size={14}/></button></div><span className="tooltip-category"><i style={{background:categories[active.creditor.type].color}}/>{categories[active.creditor.type].name}</span><div className="tooltip-value">{money(active.creditor.value)}<b>{percent(active.creditor.share)}</b></div><small>of total game debt · current US$</small>{active.creditor.code==='994'&&<><p className="tooltip-description">{active.creditor.description||MULTIPLE_LENDERS_DESCRIPTION}</p><small>Creditor type: {active.creditor.creditorTypeLabel||'Not verified'}</small>{active.creditor.classificationSource&&<a className="tooltip-source" href={active.creditor.classificationSource} target="_blank" rel="noreferrer">World Bank country table ↗</a>}</>}</div>}
     </div>
     <div className="map-legend" aria-label="Creditor categories">{Object.entries(categories).map(([key,c])=><span key={key} title={c.label}><i style={{background:c.color}}/>{c.name}</span>)}<small>Rectangle area = share of debt</small></div>
   </section>;

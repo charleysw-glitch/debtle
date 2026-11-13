@@ -1,5 +1,5 @@
 export type CreditorType = 'bilateral' | 'multilateral' | 'private' | 'imf' | 'other';
-export interface Creditor { id:string; code:string; name:string; type:CreditorType; value:number; share:number }
+export interface Creditor { id:string; code:string; name:string; type:CreditorType; value:number; share:number; description?:string; creditorTypeLabel?:string; classificationStatus?:'verified'|'unresolved'; classificationSource?:string; sourceRoundedValueUSD?:number; roundingAdjustmentUSD?:number }
 export interface Country { iso3:string; iso2:string; name:string; sourceName:string; aliases:string[]; year:number; centroid:{lat:number;lon:number}; ppgTotal:number; imfCredit:number; totalDebt:number; unallocatedDebt:number; validationStatus:string; warnings:string[]; creditors:Creditor[] }
 export type GameStatus = 'playing' | 'won' | 'lost';
 export interface Progress { guesses:string[]; status:GameStatus }

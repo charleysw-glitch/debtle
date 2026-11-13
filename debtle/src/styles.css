@@ -9,3 +9,7 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}[data-motion=reduced] *,[data-motion=reduced] *::before,[data-motion=reduced] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 
 .map-toolbar-with-total{padding-top:17px;padding-bottom:17px}.map-debt-total{display:flex;flex-direction:column;gap:5px;min-width:0}.map-debt-total strong{font-size:25px;font-weight:550;letter-spacing:-.8px;line-height:1.2;font-variant-numeric:tabular-nums;color:var(--text)}.map-debt-total small{font-size:9px;line-height:1.5;color:var(--muted)}@media(max-width:600px){.map-toolbar-with-total{padding-top:15px;padding-bottom:15px}.map-debt-total strong{font-size:23px}.map-debt-total small{font-size:8px}.map-toolbar-with-total .map-hint{display:none}.map-toolbar-with-total>.icon-button{margin-left:auto;align-self:flex-start}}
+
+.brand-globe{width:27px;height:29px;flex-shrink:0}
+
+.tooltip-description{font-size:10px;line-height:1.55;color:var(--muted);margin:10px 0 8px}.tooltip-source{display:inline-block;font-size:9px;color:var(--accent);margin-top:8px;text-decoration:none}.tooltip-source:hover{text-decoration:underline}

@@ -148,7 +148,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 896, 994"
+        "Unresolved creditor-type counterpart codes: 896"
       ],
       "creditors": [
         {
@@ -203,9 +203,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 1568571000.0,
-          "share": 2.947582461325996
+          "share": 2.947582461325996,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/AGO",
+          "sourceRoundedValueUSD": 1568571000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:913",
@@ -1142,7 +1148,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -1167,7 +1173,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 1007925575.0,
-          "share": 9.76980293906791
+          "share": 9.76980293906791,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:901",
@@ -1654,10 +1663,8 @@
       "imfCredit": 440696419.6,
       "totalDebt": 6676159664.8,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -1807,9 +1814,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 9950000.0,
-          "share": 0.14903777769817725
+          "share": 0.14903777769817725,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/BFA",
+          "sourceRoundedValueUSD": 9950000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:950",
@@ -1904,10 +1917,8 @@
       "imfCredit": 3953169851.2999997,
       "totalDebt": 87409822614.3,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -1950,12 +1961,18 @@
           "share": 7.452077291522101
         },
         {
-          "id": "ppg:994",
+          "id": "ppg:994:private",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
-          "value": 5154404000.0,
-          "share": 5.896824688392348
+          "type": "private",
+          "value": 5139544000.0,
+          "share": 5.87982431068243,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/BGD",
+          "sourceRoundedValueUSD": 5139544000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "imf:907",
@@ -2084,6 +2101,20 @@
           "type": "bilateral",
           "value": 23475833.9,
           "share": 0.026857203455941368
+        },
+        {
+          "id": "ppg:994:multilateral",
+          "code": "994",
+          "name": "Multiple Lenders",
+          "type": "multilateral",
+          "value": 14860000.0,
+          "share": 0.017000377709917632,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official multilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/BGD",
+          "sourceRoundedValueUSD": 14860000.0,
+          "roundingAdjustmentUSD": 0
         },
         {
           "id": "ppg:887",
@@ -2484,7 +2515,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -2501,7 +2532,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 269158000.0,
-          "share": 18.839304514796346
+          "share": 18.839304514796346,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:906",
@@ -2647,7 +2681,7 @@
       "validationStatus": "valid_with_notes",
       "warnings": [
         "Official PPG total exceeds reported creditors; transparent Unallocated residual added",
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -2816,7 +2850,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 3762024.2,
-          "share": 0.026513279809522068
+          "share": 0.026513279809522068,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:701",
@@ -2865,7 +2902,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -2890,7 +2927,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 15751065000.0,
-          "share": 8.001352100723178
+          "share": 8.001352100723178,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:909",
@@ -3305,10 +3345,8 @@
       "imfCredit": 297880557.4,
       "totalDebt": 762824856.0,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "imf:907",
@@ -3338,9 +3376,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 60000000.0,
-          "share": 7.865501435627054
+          "share": 7.865501435627054,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/CAF",
+          "sourceRoundedValueUSD": 60000000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:646",
@@ -3550,7 +3594,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -3567,7 +3611,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 125270930395.7,
-          "share": 27.219350565524692
+          "share": 27.219350565524692,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:915",
@@ -4704,7 +4751,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -4793,7 +4840,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 500000000.0,
-          "share": 0.32714399700161845
+          "share": 0.32714399700161845,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:919",
@@ -5409,10 +5459,8 @@
       "imfCredit": 12670640.100000001,
       "totalDebt": 458631622.6,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -5546,9 +5594,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 87000.0,
-          "share": 0.01896947260347939
+          "share": 0.01896947260347939,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/DMA",
+          "sourceRoundedValueUSD": 87000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:566",
@@ -6125,7 +6179,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 896, 994"
+        "Unresolved creditor-type counterpart codes: 896, 994"
       ],
       "creditors": [
         {
@@ -6150,7 +6204,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 9459000799.7,
-          "share": 7.68582691886832
+          "share": 7.68582691886832,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "imf:907",
@@ -6621,10 +6678,8 @@
       "imfCredit": 2153956767.5,
       "totalDebt": 38462199180.0,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -6646,9 +6701,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 4067294000.0,
-          "share": 10.574782739191253
+          "share": 10.574782739191253,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/ETH",
+          "sourceRoundedValueUSD": 4067294000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:913",
@@ -7233,7 +7294,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -7274,7 +7335,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 922142000.0,
-          "share": 8.617932066523851
+          "share": 8.617932066523851,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:004",
@@ -8050,10 +8114,8 @@
       "imfCredit": 210903433.7,
       "totalDebt": 1258399533.1,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:976",
@@ -8187,9 +8249,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 2947000.0,
-          "share": 0.23418635516656805
+          "share": 0.23418635516656805,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/GMB",
+          "sourceRoundedValueUSD": 2947000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:002",
@@ -8476,10 +8544,8 @@
       "imfCredit": 21857264.9,
       "totalDebt": 845559349.3,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -8530,20 +8596,26 @@
           "share": 3.4217586292378313
         },
         {
-          "id": "ppg:994",
-          "code": "994",
-          "name": "Multiple Lenders",
-          "type": "other",
-          "value": 21868185.2,
-          "share": 2.586238945628556
-        },
-        {
           "id": "imf:907",
           "code": "907",
           "name": "IMF",
           "type": "imf",
           "value": 21857264.9,
           "share": 2.584947457336334
+        },
+        {
+          "id": "ppg:994:private",
+          "code": "994",
+          "name": "Multiple Lenders",
+          "type": "private",
+          "value": 13885185.2,
+          "share": 1.6421301723521728,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/GRD",
+          "sourceRoundedValueUSD": 13885000.0,
+          "roundingAdjustmentUSD": 185.19999999925494
         },
         {
           "id": "ppg:901",
@@ -8560,6 +8632,20 @@
           "type": "multilateral",
           "value": 8995000.0,
           "share": 1.0637928617839245
+        },
+        {
+          "id": "ppg:994:bilateral",
+          "code": "994",
+          "name": "Multiple Lenders",
+          "type": "bilateral",
+          "value": 7983000.0,
+          "share": 0.9441087732763834,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/GRD",
+          "sourceRoundedValueUSD": 7983000.0,
+          "roundingAdjustmentUSD": 0
         },
         {
           "id": "ppg:988",
@@ -8798,10 +8884,8 @@
       "imfCredit": 0.0,
       "totalDebt": 2866444299.2,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:909",
@@ -8903,9 +8987,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 12539000.0,
-          "share": 0.43744090905584765
+          "share": 0.43744090905584765,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/GUY",
+          "sourceRoundedValueUSD": 12539000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:988",
@@ -9032,10 +9122,8 @@
       "imfCredit": 643937484.9,
       "totalDebt": 10167470457.5,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:909",
@@ -9081,9 +9169,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 308315000.0,
-          "share": 3.032366814231287
+          "share": 3.032366814231287,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/HND",
+          "sourceRoundedValueUSD": 308315000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:730",
@@ -9274,10 +9368,8 @@
       "imfCredit": 221757614.70000005,
       "totalDebt": 463825106.40000004,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "imf:907",
@@ -9288,12 +9380,18 @@
           "share": 47.810610430552586
         },
         {
-          "id": "ppg:994",
+          "id": "ppg:994:bilateral",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
-          "value": 152334000.0,
-          "share": 32.8429828178874
+          "type": "bilateral",
+          "value": 120942000.0,
+          "share": 26.07491451652907,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/HTI",
+          "sourceRoundedValueUSD": 120942000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:988",
@@ -9302,6 +9400,20 @@
           "type": "multilateral",
           "value": 36308491.7,
           "share": 7.8280565667973505
+        },
+        {
+          "id": "ppg:994:private",
+          "code": "994",
+          "name": "Multiple Lenders",
+          "type": "private",
+          "value": 31392000.0,
+          "share": 6.7680683013583405,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/HTI",
+          "sourceRoundedValueUSD": 31392000.0,
+          "roundingAdjustmentUSD": 0
         },
         {
           "id": "ppg:463",
@@ -9342,7 +9454,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -9471,7 +9583,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 355760131.4,
-          "share": 0.13427430898417023
+          "share": 0.13427430898417023,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:050",
@@ -9640,7 +9755,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -9681,7 +9796,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 21497866770.5,
-          "share": 8.500618009706146
+          "share": 8.500618009706146,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:905",
@@ -10786,7 +10904,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -10803,7 +10921,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 12925059000.0,
-          "share": 29.100854777774355
+          "share": 29.100854777774355,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:901",
@@ -10908,7 +11029,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 922"
+        "Unresolved creditor-type counterpart codes: 922"
       ],
       "creditors": [
         {
@@ -11621,10 +11742,8 @@
       "imfCredit": 0.0,
       "totalDebt": 10116261206.1,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:730",
@@ -11790,9 +11909,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 12765000.0,
-          "share": 0.1261829814388624
+          "share": 0.1261829814388624,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/LAO",
+          "sourceRoundedValueUSD": 12765000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:010",
@@ -12159,10 +12284,8 @@
       "imfCredit": 26376624.200000003,
       "totalDebt": 1146225414.1000001,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:BND",
@@ -12184,9 +12307,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 238796000.0,
-          "share": 20.83324946930262
+          "share": 20.83324946930262,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/LCA",
+          "sourceRoundedValueUSD": 238796000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:906",
@@ -12723,7 +12852,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -12852,7 +12981,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 339439075.0,
-          "share": 0.6015371286988637
+          "share": 0.6015371286988637,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:951",
@@ -13613,7 +13745,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -13654,7 +13786,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 5627652000.0,
-          "share": 1.7255815831407648
+          "share": 1.7255815831407648,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:005",
@@ -13752,7 +13887,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -13841,7 +13976,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 101833000.0,
-          "share": 1.5774541638501294
+          "share": 1.5774541638501294,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:926",
@@ -14379,7 +14517,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -14404,7 +14542,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 622750000.0,
-          "share": 10.907502834637107
+          "share": 10.907502834637107,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:901",
@@ -14811,10 +14952,8 @@
       "imfCredit": 703979227.4,
       "totalDebt": 9999211282.199999,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -14948,9 +15087,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 72459000.0,
-          "share": 0.7246471542109246
+          "share": 0.7246471542109246,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/MOZ",
+          "sourceRoundedValueUSD": 72459000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:919",
@@ -15271,7 +15416,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 922"
+        "Unresolved creditor-type counterpart codes: 922"
       ],
       "creditors": [
         {
@@ -15583,10 +15728,8 @@
       "imfCredit": 568132765.1,
       "totalDebt": 6141597983.5,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -15744,9 +15887,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 8625000.0,
-          "share": 0.14043576318690837
+          "share": 0.14043576318690837,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/NER",
+          "sourceRoundedValueUSD": 8625000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:050",
@@ -15809,10 +15958,8 @@
       "imfCredit": 0.0,
       "totalDebt": 56884060832.3,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:BND",
@@ -15842,9 +15989,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 4720982500.0,
-          "share": 8.299306397828975
+          "share": 8.299306397828975,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/NGA",
+          "sourceRoundedValueUSD": 4720983000.0,
+          "roundingAdjustmentUSD": -500.0
         },
         {
           "id": "ppg:913",
@@ -15979,10 +16132,8 @@
       "imfCredit": 59340556.99999994,
       "totalDebt": 7499931039.0,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:910",
@@ -16140,9 +16291,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 25526000.0,
-          "share": 0.34034979611497196
+          "share": 0.34034979611497196,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/NIC",
+          "sourceRoundedValueUSD": 25526000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:701",
@@ -16381,10 +16538,8 @@
       "imfCredit": 10157328483.5,
       "totalDebt": 103056148640.1,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:730",
@@ -16422,9 +16577,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 8170623000.0,
-          "share": 7.928321704058658
+          "share": 7.928321704058658,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/PAK",
+          "sourceRoundedValueUSD": 8170623000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:BND",
@@ -17161,7 +17322,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -17290,7 +17451,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 21100000.0,
-          "share": 0.12288027776715794
+          "share": 0.12288027776715794,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:005",
@@ -17329,10 +17493,8 @@
       "imfCredit": 803531125.9999999,
       "totalDebt": 10101991633.8,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -17354,9 +17516,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 821618000.0,
-          "share": 8.133227880044654
+          "share": 8.133227880044654,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/RWA",
+          "sourceRoundedValueUSD": 821618000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "imf:907",
@@ -17581,7 +17749,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -17590,7 +17758,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 2493897000.0,
-          "share": 14.480259834775069
+          "share": 14.480259834775069,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:011",
@@ -17975,7 +18146,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 896, 994"
+        "Unresolved creditor-type counterpart codes: 896"
       ],
       "creditors": [
         {
@@ -18198,9 +18369,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 105750000.0,
-          "share": 0.36525849463642907
+          "share": 0.36525849463642907,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/SEN",
+          "sourceRoundedValueUSD": 105750000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:055",
@@ -18287,10 +18464,8 @@
       "imfCredit": 8582674.100000001,
       "totalDebt": 390159831.6,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -18352,9 +18527,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 568000.0,
-          "share": 0.1455813628150028
+          "share": 0.1455813628150028,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/SLB",
+          "sourceRoundedValueUSD": 568000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:918",
@@ -18385,10 +18566,8 @@
       "imfCredit": 488909766.20000005,
       "totalDebt": 1802236673.4,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "imf:907",
@@ -18418,9 +18597,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 164930000.0,
-          "share": 9.151406273896988
+          "share": 9.151406273896988,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/SLE",
+          "sourceRoundedValueUSD": 164930000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:976",
@@ -18870,7 +19055,7 @@
       "validationStatus": "valid_with_notes",
       "warnings": [
         "Official PPG total exceeds reported creditors; transparent Unallocated residual added",
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -18887,7 +19072,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 5296944550.0,
-          "share": 15.825162612754678
+          "share": 15.825162612754678,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:730",
@@ -19473,7 +19661,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 922, 994"
+        "Unresolved creditor-type counterpart codes: 922, 994"
       ],
       "creditors": [
         {
@@ -19506,7 +19694,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 92247000.0,
-          "share": 7.754636826632493
+          "share": 7.754636826632493,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:BND",
@@ -19905,10 +20096,8 @@
       "imfCredit": 614097388.0999999,
       "totalDebt": 3170382823.7999997,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:576",
@@ -20090,9 +20279,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "bilateral",
           "value": 6400000.0,
-          "share": 0.20186836592588536
+          "share": 0.20186836592588536,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/TCD",
+          "sourceRoundedValueUSD": 6400000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:921",
@@ -21193,7 +21388,7 @@
       "validationStatus": "valid_with_notes",
       "warnings": [
         "Official PPG total exceeds reported creditors; transparent Unallocated residual added",
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -21306,7 +21501,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 1797293825.0,
-          "share": 0.9530728694565411
+          "share": 0.9530728694565411,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:926",
@@ -21571,7 +21769,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 922, 994"
+        "Unresolved creditor-type counterpart codes: 922"
       ],
       "creditors": [
         {
@@ -21714,9 +21912,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 83334000.0,
-          "share": 0.2838660712073287
+          "share": 0.2838660712073287,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/TZA",
+          "sourceRoundedValueUSD": 83334000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:576",
@@ -21907,10 +22111,8 @@
       "imfCredit": 1310134868.6,
       "totalDebt": 18825868120.6,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:905",
@@ -22004,9 +22206,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "private",
           "value": 270250000.0,
-          "share": 1.435524769794185
+          "share": 1.435524769794185,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/UGA",
+          "sourceRoundedValueUSD": 270250000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:701",
@@ -22191,7 +22399,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -22312,7 +22520,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 809240000.0,
-          "share": 0.47971881002408895
+          "share": 0.47971881002408895,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:004",
@@ -22647,10 +22858,8 @@
       "imfCredit": 25612441.700000003,
       "totalDebt": 862719230.5,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:906",
@@ -22669,12 +22878,18 @@
           "share": 33.025576563869116
         },
         {
-          "id": "ppg:994",
+          "id": "ppg:994:bilateral",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
-          "value": 186157000.0,
-          "share": 21.57793560392879
+          "type": "bilateral",
+          "value": 181871000.0,
+          "share": 21.081134344784957,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official bilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/VCT",
+          "sourceRoundedValueUSD": 181871000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:890",
@@ -22715,6 +22930,20 @@
           "type": "multilateral",
           "value": 4495000.0,
           "share": 0.5210269854996585
+        },
+        {
+          "id": "ppg:994:private",
+          "code": "994",
+          "name": "Multiple Lenders",
+          "type": "private",
+          "value": 4286000.0,
+          "share": 0.49680125914383455,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Non-official (private)",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/VCT",
+          "sourceRoundedValueUSD": 4286000.0,
+          "roundingAdjustmentUSD": 0
         },
         {
           "id": "ppg:375",
@@ -22795,7 +23024,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -22948,7 +23177,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 35000000.0,
-          "share": 0.09687326239854657
+          "share": 0.09687326239854657,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:006",
@@ -23598,7 +23830,7 @@
       "unallocatedDebt": 0,
       "validationStatus": "valid_with_notes",
       "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
+        "Unresolved creditor-type counterpart codes: 994"
       ],
       "creditors": [
         {
@@ -23623,7 +23855,10 @@
           "name": "Multiple Lenders",
           "type": "other",
           "value": 4065696000.0,
-          "share": 3.5342800251657924
+          "share": 3.5342800251657924,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "classificationStatus": "unresolved",
+          "creditorTypeLabel": "Not verified"
         },
         {
           "id": "ppg:913",
@@ -23734,10 +23969,8 @@
       "imfCredit": 1551290619.5000002,
       "totalDebt": 17568956119.600002,
       "unallocatedDebt": 0,
-      "validationStatus": "valid_with_notes",
-      "warnings": [
-        "Unclassified/multiple-lender counterpart codes: 994"
-      ],
+      "validationStatus": "valid",
+      "warnings": [],
       "creditors": [
         {
           "id": "ppg:730",
@@ -23879,9 +24112,15 @@
           "id": "ppg:994",
           "code": "994",
           "name": "Multiple Lenders",
-          "type": "other",
+          "type": "multilateral",
           "value": 64538000.0,
-          "share": 0.3673411189638133
+          "share": 0.3673411189638133,
+          "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.",
+          "creditorTypeLabel": "Official multilateral",
+          "classificationStatus": "verified",
+          "classificationSource": "https://datatopics.worldbank.org/dssitables/annual/ZMB",
+          "sourceRoundedValueUSD": 64538000.0,
+          "roundingAdjustmentUSD": 0.0
         },
         {
           "id": "ppg:302",

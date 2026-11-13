@@ -1,6 +1,6 @@
 import type { SavedState, Preferences, Progress } from '../types';
 import { countryById } from '../data';
-import { utcDate, DAY_MS } from './daily';
+import { puzzleDate, addCalendarDays, DAY_MS } from './daily';
 export const STORAGE_KEY='debtle:v1';
 export const defaultPreferences:Preferences={theme:'system',unit:'km',reducedMotion:false};
 export const emptyState=():SavedState=>({version:1,daily:{},practice:null,recentPractice:[],preferences:{...defaultPreferences}});
@@ -14,6 +14,8 @@ export function loadState(storage?:Pick<Storage,'getItem'>):SavedState {
   try {
     const raw=JSON.parse((storage??window.localStorage).getItem(STORAGE_KEY)||'null');
     if(!raw||raw.version!==1)return state;
+    // Keys identify the frozen puzzle date and answer, not an instant. Preserve
+    // UTC-era keys verbatim: shifting them would associate guesses with a different answer.
     if(raw.daily&&typeof raw.daily==='object')for(const [date,p] of Object.entries(raw.daily))if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&validProgress(p))state.daily[date]=p;
     if(validProgress(raw.practice)&&countryById.has(raw.practice.answer)&&typeof raw.practice.id==='string')state.practice=raw.practice;
     if(Array.isArray(raw.recentPractice))state.recentPractice=raw.recentPractice.filter((x:unknown)=>typeof x==='string'&&countryById.has(x)).slice(-15);
@@ -25,7 +27,7 @@ export function loadState(storage?:Pick<Storage,'getItem'>):SavedState {
 export function saveState(state:SavedState,storage?:Pick<Storage,'setItem'>) {
   try{(storage??window.localStorage).setItem(STORAGE_KEY,JSON.stringify(state));return true;}catch{return false;}
 }
-export function statistics(daily:Record<string,Progress>,today=utcDate()) {
+export function statistics(daily:Record<string,Progress>,today=puzzleDate()) {
   const entries=Object.entries(daily).filter(([,p])=>p.status!=='playing').sort(([a],[b])=>a.localeCompare(b));
   const wins=entries.filter(([,p])=>p.status==='won').length,distribution=Array(6).fill(0) as number[];
   let maxStreak=0,run=0,previous='';
@@ -34,7 +36,7 @@ export function statistics(daily:Record<string,Progress>,today=utcDate()) {
     else {run=0;previous='';}
   }
   let currentStreak=0,cursor=today;
-  if(!daily[cursor]||daily[cursor].status==='playing')cursor=utcDate(new Date(Date.parse(today+'T00:00:00Z')-DAY_MS));
-  while(daily[cursor]?.status==='won'){currentStreak++;cursor=utcDate(new Date(Date.parse(cursor+'T00:00:00Z')-DAY_MS));}
+  if(!daily[cursor]||daily[cursor].status==='playing')cursor=addCalendarDays(today,-1);
+  while(daily[cursor]?.status==='won'){currentStreak++;cursor=addCalendarDays(cursor,-1);}
   return {played:entries.length,wins,winPercent:entries.length?Math.round(wins/entries.length*100):0,currentStreak,maxStreak,distribution};
 }

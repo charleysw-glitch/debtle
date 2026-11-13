@@ -1,0 +1,1 @@
+export const MULTIPLE_LENDERS_DESCRIPTION='World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan.';
