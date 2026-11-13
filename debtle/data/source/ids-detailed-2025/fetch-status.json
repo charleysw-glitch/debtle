@@ -1,0 +1,352 @@
+[
+  {
+    "iso3": "AGO",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/AGO",
+    "httpStatus": "200",
+    "bytes": 36960,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "AZE",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/AZE",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "BFA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/BFA",
+    "httpStatus": "200",
+    "bytes": 25555,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "BGD",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/BGD",
+    "httpStatus": "200",
+    "bytes": 26499,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "BLZ",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/BLZ",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "BOL",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/BOL",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "BRA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/BRA",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "CAF",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/CAF",
+    "httpStatus": "200",
+    "bytes": 24859,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "CHN",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/CHN",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "COL",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/COL",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "DMA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/DMA",
+    "httpStatus": "200",
+    "bytes": 22686,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "EGY",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/EGY",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "ETH",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/ETH",
+    "httpStatus": "200",
+    "bytes": 35089,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "GEO",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/GEO",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "GMB",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/GMB",
+    "httpStatus": "200",
+    "bytes": 21365,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "GRD",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/GRD",
+    "httpStatus": "200",
+    "bytes": 21267,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "GUY",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/GUY",
+    "httpStatus": "200",
+    "bytes": 24653,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "HND",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/HND",
+    "httpStatus": "200",
+    "bytes": 27395,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "HTI",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/HTI",
+    "httpStatus": "200",
+    "bytes": 13156,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "IDN",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/IDN",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "IND",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/IND",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "KAZ",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/KAZ",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "LAO",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/LAO",
+    "httpStatus": "200",
+    "bytes": 26196,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "LCA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/LCA",
+    "httpStatus": "200",
+    "bytes": 17114,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "MAR",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/MAR",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "MEX",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/MEX",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "MKD",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/MKD",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "MNE",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/MNE",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "MOZ",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/MOZ",
+    "httpStatus": "200",
+    "bytes": 29083,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "NER",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/NER",
+    "httpStatus": "200",
+    "bytes": 22627,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "NGA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/NGA",
+    "httpStatus": "200",
+    "bytes": 20637,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "NIC",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/NIC",
+    "httpStatus": "200",
+    "bytes": 25420,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "PAK",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/PAK",
+    "httpStatus": "200",
+    "bytes": 35292,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "PRY",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/PRY",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "RWA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/RWA",
+    "httpStatus": "200",
+    "bytes": 25536,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "SDN",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/SDN",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "SEN",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/SEN",
+    "httpStatus": "200",
+    "bytes": 34295,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "SLB",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/SLB",
+    "httpStatus": "200",
+    "bytes": 14117,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "SLE",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/SLE",
+    "httpStatus": "200",
+    "bytes": 19102,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "SRB",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/SRB",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "SWZ",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/SWZ",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "TCD",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/TCD",
+    "httpStatus": "200",
+    "bytes": 23808,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "TUR",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/TUR",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "TZA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/TZA",
+    "httpStatus": "200",
+    "bytes": 38169,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "UGA",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/UGA",
+    "httpStatus": "200",
+    "bytes": 28712,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "UKR",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/UKR",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "VCT",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/VCT",
+    "httpStatus": "200",
+    "bytes": 17686,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "VNM",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/VNM",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "ZAF",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/ZAF",
+    "httpStatus": "200",
+    "bytes": 8671,
+    "retrievedOn": "2026-11-13"
+  },
+  {
+    "iso3": "ZMB",
+    "url": "https://datatopics.worldbank.org/dssitables/annual/ZMB",
+    "httpStatus": "200",
+    "bytes": 28042,
+    "retrievedOn": "2026-11-13"
+  }
+]

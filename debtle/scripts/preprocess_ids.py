@@ -11,6 +11,7 @@ import shutil
 from pathlib import Path
 import pandas as pd
 import pycountry
+from multiple_lenders import classify as classify_multiple, load_evidence, write_diagnostics
 
 ROOT=Path(__file__).resolve().parents[1]
 PPG='DT.DOD.DPPG.CD'
@@ -48,7 +49,7 @@ def read_workbook(path):
     if frame.duplicated(keys).any():raise ValueError('Duplicate country/indicator/counterpart observation')
     return frame
 
-def process_country(iso3,frame,classification,geography):
+def process_country(iso3,frame,classification,geography,multiple_evidence=None):
     name=str(frame.iloc[0]['Country Name']).strip()
     warnings=[]; errors=[]
     def balance(series,code):
@@ -66,6 +67,11 @@ def process_country(iso3,frame,classification,geography):
         value=number(row['value'])
         if value is None:continue
         code=row['Counterpart-Area Code']
+        if code=='994' and value>0:
+            pieces,_=classify_multiple(iso3,value,(multiple_evidence or {}).get(iso3))
+            creditors.extend(pieces)
+            if any(c['type']=='other' for c in pieces):unknown.append(code)
+            continue
         entry=classification.get(code)
         if entry is None:
             entry={'name':str(row['Counterpart-Area Name']).strip(),'type':'other'}
@@ -80,7 +86,7 @@ def process_country(iso3,frame,classification,geography):
             creditors.append({'id':'ppg:unallocated','code':'UNALLOCATED','name':'Unallocated','type':'other','value':residual,'share':0})
             warnings.append('Official PPG total exceeds reported creditors; transparent Unallocated residual added')
         elif difference < -tolerance(ppg):errors.append('Reported PPG creditors exceed official total; quarantined without scaling')
-    if unknown:warnings.append('Unclassified/multiple-lender counterpart codes: '+', '.join(sorted(unknown)))
+    if unknown:warnings.append('Unresolved creditor-type counterpart codes: '+', '.join(sorted(unknown)))
     if imf is not None:
         creditors.append({'id':'imf:907','code':'907','name':'IMF','type':'imf','value':imf,'share':0})
     total=(ppg or 0)+(imf or 0)
@@ -99,11 +105,17 @@ def build(path,out=ROOT/'src/data/debt.json',report_dir=ROOT/'reports'):
     frame=read_workbook(path)
     classification=json.loads((ROOT/'data/creditor-classification.json').read_text())
     geo=json.loads((ROOT/'src/data/geography.json').read_text())['countries']
+    evidence=load_evidence(ROOT)
+    multiple_diagnostics=[]
     excluded=[];countries=[];reports=[]
     for code,group in frame.groupby('Country Code',sort=True):
         if code in AGGREGATES or (not pycountry.countries.get(alpha_3=code) and code!='XKX'):
             excluded.append({'iso3':code,'name':str(group.iloc[0]['Country Name'])});continue
-        country,report=process_country(code,group,classification,geo)
+        country,report=process_country(code,group,classification,geo,evidence)
+        multiple=group[(group['Series Code']==PPG)&(group['Counterpart-Area Code']=='994')]
+        if len(multiple)==1 and number(multiple.iloc[0]['value']) and number(multiple.iloc[0]['value'])>0:
+            _,diagnostic=classify_multiple(code,number(multiple.iloc[0]['value']),evidence.get(code))
+            multiple_diagnostics.append(diagnostic)
         reports.append(report)
         if report['eligible']:countries.append(country)
     payload={'schemaVersion':1,'dataVersion':'ids-2025-v1','year':2025,'source':{'name':'World Bank International Debt Statistics','url':SOURCE_URL,'workbook':Path(path).name,'sha256':hashlib.sha256(Path(path).read_bytes()).hexdigest(),'workbookUpdated':'2026-11-05','indicators':[PPG,IMF],'units':'current US dollars'},'countries':countries}
@@ -114,15 +126,17 @@ def build(path,out=ROOT/'src/data/debt.json',report_dir=ROOT/'reports'):
         if missing:raise ValueError(f'Frozen daily pool countries unavailable: {missing}; preserve the original dataset for historical puzzles')
     out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(payload,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
     report_dir.mkdir(parents=True,exist_ok=True)
+    write_diagnostics(report_dir,multiple_diagnostics)
     with (report_dir/'reconciliation.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(reports[0]));writer.writeheader();writer.writerows(reports)
     if report_dir.resolve()==(ROOT/'reports').resolve():
         shutil.copyfile(report_dir/'reconciliation.csv',ROOT/'public/reconciliation.csv')
+        shutil.copyfile(report_dir/'multiple-lenders.csv',ROOT/'public/multiple-lenders.csv')
     summary={'year':2025,'source_sha256':payload['source']['sha256'],'source_rows':len(frame),'debtor_entries':int(frame['Country Code'].nunique()),'counterpart_areas':int(frame['Counterpart-Area Code'].nunique()),'individual_countries':len(reports),'eligible_countries':len(countries),'excluded_aggregates':excluded,'missing_observations':int(frame['value'].isna().sum()),'observed_zeros':int((frame['value']==0).sum()),'review_countries':[r['iso3'] for r in reports if not r['eligible']],'residuals':[{k:r[k] for k in ['iso3','country','unallocated_ppg_residual','ppg_discrepancy_percent']} for r in reports if r['unallocated_ppg_residual']>0],'unclassified_codes':sorted({c['code'] for country in countries for c in country['creditors'] if c['type']=='other' and c['value']>0 and c['code']!='UNALLOCATED'})}
     (report_dir/'quality-summary.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False)+'\n')
     text=['# IDS 2025 reconciliation and quality report','',f"Source: `{Path(path).name}` (SHA-256 `{payload['source']['sha256']}`).",'',f"The workbook contains {summary['debtor_entries']} debtor entries and {summary['counterpart_areas']} counterpart areas. The source has 14 aggregate debtors, including LDC (Least developed countries: UN classification), beyond the 13 codes in the brief. ISO country validation plus the explicitly supported Kosovo code XKX leaves {len(reports)} individual countries. {len(countries)} pass validation and enter the game.",'','## Method','',f'Only `{PPG}` and `{IMF}`, 2025, current US dollars. PPG WLD is authoritative and excluded from creditor entries. IMF uses counterpart 907 exactly once; its World duplicate is checked and excluded. No SDR-inclusive indicator is used. Missing observations remain null internally; numeric zero is an observation. Missing individual matrix cells are not converted into debt balances. Countries lacking authoritative totals or IMF confirmation are quarantined.','', 'Tolerance: max($0.01, official total × 1e-10). Positive material residuals become Unallocated; negative material residuals quarantine the country. Reported balances are never rescaled. Rounding differences below tolerance remain visible in the CSV and can produce insignificant deviations from 100%.','', '## Residuals','', '| Country | Unallocated USD | Share of PPG |','|---|---:|---:|']
     text += [f"| {r['country']} ({r['iso3']}) | ${r['unallocated_ppg_residual']:,.2f} | {r['ppg_discrepancy_percent']:.6f}% |" for r in reports if r['unallocated_ppg_residual']]
-    text += ['', '## Classification and limits','', 'All 303 non-World counterpart codes have an explicit, editable mapping in data/creditor-classification.json. Individual institutions, IDA, and IBRD remain separate. Historical sovereign and territorial counterparts remain bilateral; no rule classifies numeric ranges. Codes 896, 897, 922, 939, 946 and 962 use conservative other/unclassified treatment, as do 994 and FCW. Positive unclassified balances are flagged per country, but do not invalidate reconciled data.', '', 'Positive other/multiple-lender codes in this extract: '+', '.join(summary['unclassified_codes'])+'.', '', f"Review/quarantined countries: {', '.join(summary['review_countries']) or 'none'}. All IMF 907/World comparisons pass for eligible countries.", '', 'Geographic coordinates: area-weighted planar geographic centroids derived from Natural Earth 1:50m Admin 0 Countries, with antimeridian unwrapping. These are approximate land centroids, not capitals. Kosovo uses the common World Bank code XKX, which is not an officially assigned ISO 3166-1 code.', '', 'Source coverage is limited to reporting debtors; this is not every country in the world. The measure is PPG external debt plus IMF credit, not total public debt or total external debt. Empty cells cannot establish the absence of every possible creditor relationship.', '', 'See reconciliation.csv for every country, discrepancy, IMF duplicate check, observed zero count, percentage sum, validation status and warnings.']
+    text += ['', '## Classification and limits','', 'All 303 non-World counterpart codes have an explicit, editable mapping in data/creditor-classification.json. Individual institutions, IDA, and IBRD remain separate. Historical sovereign and territorial counterparts remain bilateral; no rule classifies numeric ranges. Codes 896, 897, 922, 939, 946 and 962 use conservative other/unclassified treatment, while 994 uses reconciled country-specific evidence and FCW remains separate. Multiple Lenders is not an Unallocated residual. Positive unclassified balances are flagged per country, but do not invalidate reconciled data.', '', 'Positive unresolved/other codes in this extract: '+', '.join(summary['unclassified_codes'])+'.', '', f"Review/quarantined countries: {', '.join(summary['review_countries']) or 'none'}. All IMF 907/World comparisons pass for eligible countries.", '', 'Geographic coordinates: area-weighted planar geographic centroids derived from Natural Earth 1:50m Admin 0 Countries, with antimeridian unwrapping. These are approximate land centroids, not capitals. Kosovo uses the common World Bank code XKX, which is not an officially assigned ISO 3166-1 code.', '', 'Source coverage is limited to reporting debtors; this is not every country in the world. The measure is PPG external debt plus IMF credit, not total public debt or total external debt. Empty cells cannot establish the absence of every possible creditor relationship.', '', 'See reconciliation.csv for every country, discrepancy, IMF duplicate check, observed zero count, percentage sum, validation status and warnings. See multiple-lenders-report.md and multiple-lenders.csv for every positive 994 balance, source, verified classification, split, rounding adjustment, and unresolved case.']
     (report_dir/'quality-report.md').write_text('\n'.join(text)+'\n')
     pool=ROOT/'src/data/daily-pool-v1.json'
     if not pool.exists():

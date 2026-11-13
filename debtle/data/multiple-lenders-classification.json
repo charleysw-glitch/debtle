@@ -1,0 +1,899 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T22:41:46.358591+00:00",
+  "purpose": "Creditor type only; original workbook dollar balances remain authoritative.",
+  "countries": {
+    "AGO": {
+      "countryName": "Angola",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 1568571000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/AGO",
+      "sourceFile": "data/source/ids-detailed-2025/AGO.html",
+      "sourceSha256": "dbae64a6dabb5470b9bd0eec8e433c754d43840abd29e0bd2b3716b295e20846",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 1568571.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "AZE": {
+      "countryName": "Azerbaijan",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 1007925575.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/AZE",
+      "sourceFile": "data/source/ids-detailed-2025/AZE.html",
+      "sourceSha256": "2ec3a5e8b3df328aef208db42504ae845ecf4ad6721be5af12514757d546c8fe",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "BFA": {
+      "countryName": "Burkina Faso",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 9950000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/BFA",
+      "sourceFile": "data/source/ids-detailed-2025/BFA.html",
+      "sourceSha256": "d8d6b7e7340a8d78bead7c71a21f77a623b27a63808eb0d7ca7831e9b92cc134",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 9950.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "BGD": {
+      "countryName": "Bangladesh",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 5154404000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/BGD",
+      "sourceFile": "data/source/ids-detailed-2025/BGD.html",
+      "sourceSha256": "515aa2099b3a6d63800761782947a8aafad8a9e6028777c88bc2132c078897dd",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official multilateral",
+          "type": "multilateral",
+          "amountThousands": 14860.0
+        },
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 5139544.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "BLZ": {
+      "countryName": "Belize",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 269158000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/BLZ",
+      "sourceFile": "data/source/ids-detailed-2025/BLZ.html",
+      "sourceSha256": "cac5afef8a55649bd615007cd7f605c32432efc5cbeca8c24fcd23e76926babf",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "BOL": {
+      "countryName": "Bolivia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 3762024.2,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/BOL",
+      "sourceFile": "data/source/ids-detailed-2025/BOL.html",
+      "sourceSha256": "03fda4b2a3728a65a10cf833d9d718be57836a88ab83ba5615b7bb263d838eba",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "BRA": {
+      "countryName": "Brazil",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 15751065000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/BRA",
+      "sourceFile": "data/source/ids-detailed-2025/BRA.html",
+      "sourceSha256": "b1238040a9518789aee2755154e59f10e251723a0dccb02c1a2d2da89ae1852d",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "CAF": {
+      "countryName": "Central African Republic",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 60000000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/CAF",
+      "sourceFile": "data/source/ids-detailed-2025/CAF.html",
+      "sourceSha256": "8e2a932c60406a6564eeb9dd81fa3bde3c4ff32e47609c27b4c956a6558b43f5",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 60000.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "CHN": {
+      "countryName": "China",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 125270930395.7,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/CHN",
+      "sourceFile": "data/source/ids-detailed-2025/CHN.html",
+      "sourceSha256": "1a132a32f9c5024af29b6fd382056b112d7be56ac75c4a3761448510b8be70c4",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "COL": {
+      "countryName": "Colombia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 500000000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/COL",
+      "sourceFile": "data/source/ids-detailed-2025/COL.html",
+      "sourceSha256": "ce256dfc978bced66d5fd082f1f73bf3af2ed11e96a1f8c54fa3e898bb13b5d2",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "DMA": {
+      "countryName": "Dominica",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 87000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/DMA",
+      "sourceFile": "data/source/ids-detailed-2025/DMA.html",
+      "sourceSha256": "9f2f0bebbf255bcd40976313bccbb799ae1548f209e038273c8dcf6497aa270a",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 87.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "EGY": {
+      "countryName": "Egypt, Arab Rep.",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 9459000799.7,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/EGY",
+      "sourceFile": "data/source/ids-detailed-2025/EGY.html",
+      "sourceSha256": "aadd3e6a6e2757889e373348e1e24de8fff2e516bab4c527881935dbe03a684b",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "ETH": {
+      "countryName": "Ethiopia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 4067294000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/ETH",
+      "sourceFile": "data/source/ids-detailed-2025/ETH.html",
+      "sourceSha256": "18de6e570a78acdf15d16b0c63c8a40060baafdcf1577ba06d317e589f4d9fcc",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 4067294.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "GEO": {
+      "countryName": "Georgia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 922142000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/GEO",
+      "sourceFile": "data/source/ids-detailed-2025/GEO.html",
+      "sourceSha256": "56a24089055dc18fc16b9f998fb38b98782baba5cf661e43ba6efd2523457a71",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "GMB": {
+      "countryName": "Gambia, The",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 2947000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/GMB",
+      "sourceFile": "data/source/ids-detailed-2025/GMB.html",
+      "sourceSha256": "26a246f12784f7f9f3f4711f43d785452d627a8546bebb2284758d98ab582327",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 2947.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "GRD": {
+      "countryName": "Grenada",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 21868185.2,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/GRD",
+      "sourceFile": "data/source/ids-detailed-2025/GRD.html",
+      "sourceSha256": "608d26f237f2a4814a63b9e5d6a558af02e13b1d1b22af1ff5f73e1935dc4bc3",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 7983.0
+        },
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 13885.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "GUY": {
+      "countryName": "Guyana",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 12539000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/GUY",
+      "sourceFile": "data/source/ids-detailed-2025/GUY.html",
+      "sourceSha256": "cf7e7bf637cb961186665f2b2b00e22d05fd9ad883c50750a6032f2a0c10df06",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 12539.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "HND": {
+      "countryName": "Honduras",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 308315000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/HND",
+      "sourceFile": "data/source/ids-detailed-2025/HND.html",
+      "sourceSha256": "7cffa54093ea06ce711fb6814b86eace2eca473ebba76ad3c15f251e54e13646",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 308315.0
+        },
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 0.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "HTI": {
+      "countryName": "Haiti",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 152334000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/HTI",
+      "sourceFile": "data/source/ids-detailed-2025/HTI.html",
+      "sourceSha256": "d3e15d4aa089c333a741820e31510edc2ef12c9d6640ca0abe193296b8c12e84",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 120942.0
+        },
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 31392.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "IDN": {
+      "countryName": "Indonesia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 355760131.4,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/IDN",
+      "sourceFile": "data/source/ids-detailed-2025/IDN.html",
+      "sourceSha256": "9b9a812a21cc0c32f65bd32ac1df21613335745fa67ddb6dcb38d43782e1d545",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "IND": {
+      "countryName": "India",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 21497866770.5,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/IND",
+      "sourceFile": "data/source/ids-detailed-2025/IND.html",
+      "sourceSha256": "fda4aa23e51cf6fa80bee12af23adba9b4d7df1887fca04d5b2aad2d22f82951",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "KAZ": {
+      "countryName": "Kazakhstan",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 12925059000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/KAZ",
+      "sourceFile": "data/source/ids-detailed-2025/KAZ.html",
+      "sourceSha256": "1d5640ae65de6a956cab7c6c831962edeb73c3d9f0d49ad92fa334e57a1e65c0",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "LAO": {
+      "countryName": "Lao PDR",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 12765000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/LAO",
+      "sourceFile": "data/source/ids-detailed-2025/LAO.html",
+      "sourceSha256": "50e0f95573ae15ae94e6a29cdcdcd23377572ff67a5da981c942b3fc298174d6",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 12765.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "LCA": {
+      "countryName": "St. Lucia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 238796000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/LCA",
+      "sourceFile": "data/source/ids-detailed-2025/LCA.html",
+      "sourceSha256": "06d86648107bc7c10ea473bb4a0bc85eb8bf1a6cac9755ac8118e5d20d84a241",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 238796.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "MAR": {
+      "countryName": "Morocco",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 339439075.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/MAR",
+      "sourceFile": "data/source/ids-detailed-2025/MAR.html",
+      "sourceSha256": "c690d7e9c42c5c11e9870f81422e16d09ade9569c2aa135910dca7d193e3937a",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "MEX": {
+      "countryName": "Mexico",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 5627652000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/MEX",
+      "sourceFile": "data/source/ids-detailed-2025/MEX.html",
+      "sourceSha256": "29ade533ac7f8b180318c1de8de4dc4cfe8517cbe26dbb302d30a86cc24ab5ad",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "MKD": {
+      "countryName": "North Macedonia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 101833000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/MKD",
+      "sourceFile": "data/source/ids-detailed-2025/MKD.html",
+      "sourceSha256": "05d174bd918804ce6b52d05cd9db1cf913d76a71e5c36914d3410fc9b7ad5135",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "MNE": {
+      "countryName": "Montenegro",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 622750000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/MNE",
+      "sourceFile": "data/source/ids-detailed-2025/MNE.html",
+      "sourceSha256": "f706bbaf65e14b55da0d9bbf716724f045a9de94fa35f238a389b8e76735cdbb",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "MOZ": {
+      "countryName": "Mozambique",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 72459000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/MOZ",
+      "sourceFile": "data/source/ids-detailed-2025/MOZ.html",
+      "sourceSha256": "0b7d6dd5a31e31210f81212a0e73c4827be8f9a93182daf5a08a6f5620465d53",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 72459.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "NER": {
+      "countryName": "Niger",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 8625000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/NER",
+      "sourceFile": "data/source/ids-detailed-2025/NER.html",
+      "sourceSha256": "ae87fa8ce8938c86016e73c1d35cd5ba577077b67230f94905b774d2ddbdaa25",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 8625.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "NGA": {
+      "countryName": "Nigeria",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 4720982500.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/NGA",
+      "sourceFile": "data/source/ids-detailed-2025/NGA.html",
+      "sourceSha256": "e7e85445a4f72ec08bc43c38e72da7c2c9d574cd4d31a861a170220c65375e61",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 4720983.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "NIC": {
+      "countryName": "Nicaragua",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 25526000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/NIC",
+      "sourceFile": "data/source/ids-detailed-2025/NIC.html",
+      "sourceSha256": "6ed163b0bd83335192e394c3c9accf9fe24d121833d704880564c443bc6ea392",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 25526.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "PAK": {
+      "countryName": "Pakistan",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 8170623000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/PAK",
+      "sourceFile": "data/source/ids-detailed-2025/PAK.html",
+      "sourceSha256": "54a65e4e9c25f514c269c101304ac72a7f4125cc9b00e27208e42e563e9f0c0c",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 8170623.0
+        },
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 0.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "PRY": {
+      "countryName": "Paraguay",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 21100000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/PRY",
+      "sourceFile": "data/source/ids-detailed-2025/PRY.html",
+      "sourceSha256": "123c5c0c3c69b5bcde04e552dfb9317d446bd7764ca94ece04b7561453a30b0f",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "RWA": {
+      "countryName": "Rwanda",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 821618000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/RWA",
+      "sourceFile": "data/source/ids-detailed-2025/RWA.html",
+      "sourceSha256": "f888a620adc3a349e02335b8e78eb07efd7e88edf2b5de6631ebb0b72a75540e",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 821618.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "SDN": {
+      "countryName": "Sudan",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 2493897000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/SDN",
+      "sourceFile": "data/source/ids-detailed-2025/SDN.html",
+      "sourceSha256": "16e54864eb441228b74980088b6f98c5f1142fa4e712fc11c46e5ec0bc1a73fe",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "SEN": {
+      "countryName": "Senegal",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 105750000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/SEN",
+      "sourceFile": "data/source/ids-detailed-2025/SEN.html",
+      "sourceSha256": "b82d6cab1f5aad2eee8cfff2de74827954f39bdf358be81e8cd0f78da9a1528f",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 105750.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "SLB": {
+      "countryName": "Solomon Islands",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 568000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/SLB",
+      "sourceFile": "data/source/ids-detailed-2025/SLB.html",
+      "sourceSha256": "9746c921988431589e526d3ca78cd139a58f82d89b9571ca04e07b143e42eb60",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 568.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "SLE": {
+      "countryName": "Sierra Leone",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 164930000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/SLE",
+      "sourceFile": "data/source/ids-detailed-2025/SLE.html",
+      "sourceSha256": "f97a960621dfa9be04f9c2bab3ce5925d0a1a1e7a6038341814617f22c9fca55",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 164930.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "SRB": {
+      "countryName": "Serbia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 5296944550.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/SRB",
+      "sourceFile": "data/source/ids-detailed-2025/SRB.html",
+      "sourceSha256": "0fbb0fa8703651e73b41776c809eec9647e6474b61c8aaf9bbe4f4eadea61678",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "SWZ": {
+      "countryName": "Eswatini",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 92247000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/SWZ",
+      "sourceFile": "data/source/ids-detailed-2025/SWZ.html",
+      "sourceSha256": "1a198c6bf3fab8288a6c694f7d028e272dc8053be1456ad025d8f24653ea9672",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "TCD": {
+      "countryName": "Chad",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 6400000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/TCD",
+      "sourceFile": "data/source/ids-detailed-2025/TCD.html",
+      "sourceSha256": "586a7d9c26430dca200af9babef5cee7cbca44d2761a17df651b982b06925b32",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 6400.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "TUR": {
+      "countryName": "Turkiye",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 1797293825.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/TUR",
+      "sourceFile": "data/source/ids-detailed-2025/TUR.html",
+      "sourceSha256": "4702cf3ee412c8aada7ab3b8d70abb44eeb45292cf7ae14d5e4eec6e3528c0ca",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "TZA": {
+      "countryName": "Tanzania",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 83334000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/TZA",
+      "sourceFile": "data/source/ids-detailed-2025/TZA.html",
+      "sourceSha256": "b5c1b786e1ab607a435f196555bce2675669e73a7ce6c01a5668f1e95dabdc3d",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 83334.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "UGA": {
+      "countryName": "Uganda",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 270250000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/UGA",
+      "sourceFile": "data/source/ids-detailed-2025/UGA.html",
+      "sourceSha256": "92adef027e7996f438ae9805f7c4337041bb8850f13778f99d70814c3b937ddf",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 270250.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "UKR": {
+      "countryName": "Ukraine",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 809240000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/UKR",
+      "sourceFile": "data/source/ids-detailed-2025/UKR.html",
+      "sourceSha256": "4360beca1a29e768e0dfa1980a4312c03b486c1163df16ca1d8447b9c1001351",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "VCT": {
+      "countryName": "St. Vincent and the Grenadines",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 186157000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/VCT",
+      "sourceFile": "data/source/ids-detailed-2025/VCT.html",
+      "sourceSha256": "e8639197b86a9d3e8d06e67d52d3a90bc8af0e98508c4d91273b15e992209390",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official bilateral",
+          "type": "bilateral",
+          "amountThousands": 181871.0
+        },
+        {
+          "creditorType": "Non-official",
+          "type": "private",
+          "amountThousands": 4286.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    },
+    "VNM": {
+      "countryName": "Viet Nam",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 35000000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/VNM",
+      "sourceFile": "data/source/ids-detailed-2025/VNM.html",
+      "sourceSha256": "9e037f927e15583766df2c8eaa692905b35905696019138e077d83658baef31f",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "ZAF": {
+      "countryName": "South Africa",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 4065696000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/ZAF",
+      "sourceFile": "data/source/ids-detailed-2025/ZAF.html",
+      "sourceSha256": "ed34a1cea6f7c6e86b3dc6441271951b42eec0579ea7df4189731383791c7345",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "unavailable",
+      "rows": [],
+      "notes": "Empty country table: blank country name and no verified lender rows."
+    },
+    "ZMB": {
+      "countryName": "Zambia",
+      "year": 2025,
+      "units": "US$ thousands",
+      "originalAmountUSD": 64538000.0,
+      "sourceUrl": "https://datatopics.worldbank.org/dssitables/annual/ZMB",
+      "sourceFile": "data/source/ids-detailed-2025/ZMB.html",
+      "sourceSha256": "5087db8ac25d071fa2990b38368b5047e5f7bc83de9a30aa41d9846dd31e7757",
+      "sourceUpdated": "11/05/2026",
+      "sourceRetrievedOn": "2026-11-13",
+      "status": "available",
+      "rows": [
+        {
+          "creditorType": "Official multilateral",
+          "type": "multilateral",
+          "amountThousands": 64538.0
+        }
+      ],
+      "notes": "2025 detailed creditor rows extracted."
+    }
+  }
+}

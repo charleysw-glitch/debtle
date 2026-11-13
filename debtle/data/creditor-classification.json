@@ -1797,7 +1797,8 @@
     "name": "Multiple Lenders",
     "sourceName": "Multiple Lenders",
     "type": "other",
-    "note": "Unclassified or multiple-lender balance; source does not establish a more precise type."
+    "note": "Mixed-creditor category, not an unallocated residual. Use verified country-specific 2025 evidence from multiple-lenders-classification.json for bilateral, multilateral, or private classification; otherwise retain Other.",
+    "description": "World Bank category for debt involving creditors from multiple countries or territories not separately identified. The underlying lenders may be bilateral, multilateral, or private, depending on the loan."
   },
   "997": {
     "name": "Economic Community of West African States (ECOWAS)",
