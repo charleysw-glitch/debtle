@@ -1,9 +1,9 @@
 import { test,expect } from '@playwright/test';
 import { dailyPuzzle } from '../../src/game/daily';
-import data from '../../src/data/debt.json';
-const daily=dailyPuzzle(),answer=data.countries.find(c=>c.iso3===daily.answer)!;
+import data from '../../src/data/debt.json' with { type:'json' };
+const daily=dailyPuzzle('2026-11-13'),answer=data.countries.find(c=>c.iso3===daily.answer)!;
 
-test.beforeEach(async({page})=>{await page.goto('/');});
+test.beforeEach(async({page})=>{await page.clock.setFixedTime(new Date('2026-11-13T17:00:00Z'));await page.goto('/');});
 test('fits viewport, keeps small tiles, and shows creditor detail',async({page})=>{
   await expect(page.getByRole('heading',{name:/Guess the country/})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);

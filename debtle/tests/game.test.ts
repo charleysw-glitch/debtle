@@ -33,7 +33,7 @@ describe('country search',()=>{
   });
 });
 describe('daily selection',()=>{
-  it('is deterministic for a UTC date',()=>{
+  it('is deterministic for a frozen calendar date',()=>{
     expect(dailyPuzzle('2026-11-11')).toEqual(dailyPuzzle('2026-11-11'));
     expect(dailyPuzzle('2026-11-11').number).toBe(11);
     expect(dailyPuzzle('2026-11-01').number).toBe(1);

@@ -5,7 +5,7 @@ import App from '../src/App';
 import CountrySearch from '../src/components/CountrySearch';
 import Treemap from '../src/components/Treemap';
 import { countryById } from '../src/data';
-import { dailyPuzzle,utcDate } from '../src/game/daily';
+import { dailyPuzzle,puzzleDate } from '../src/game/daily';
 import { loadState,emptyState,saveState } from '../src/game/storage';
 
 describe('interactive interface',()=>{
@@ -23,18 +23,18 @@ describe('interactive interface',()=>{
   });
   it('does not reveal the answer before completion and persists guesses',async()=>{
     const user=userEvent.setup(),answer=dailyPuzzle().answer;render(<App/>);
-    const wrong=answer==='GHA'?'KEN':'GHA';const input=screen.getByRole('combobox');await user.type(input,countryById.get(wrong)!.name);await user.keyboard('{Enter}');await user.click(screen.getByRole('button',{name:'Guess'}));expect(loadState().daily[utcDate()].guesses).toEqual([wrong]);expect(screen.getByRole('combobox')).toBeInTheDocument();expect(screen.queryByRole('heading',{name:new RegExp(countryById.get(answer)!.name)})).not.toBeInTheDocument();
+    const wrong=answer==='GHA'?'KEN':'GHA';const input=screen.getByRole('combobox');await user.type(input,countryById.get(wrong)!.name);await user.keyboard('{Enter}');await user.click(screen.getByRole('button',{name:'Guess'}));expect(loadState().daily[puzzleDate()].guesses).toEqual([wrong]);expect(screen.getByRole('combobox')).toBeInTheDocument();expect(screen.queryByRole('heading',{name:new RegExp(countryById.get(answer)!.name)})).not.toBeInTheDocument();
   });
   it('reveals a win, freezes the daily result, and opens the detailed profile',async()=>{
     const user=userEvent.setup(),answer=countryById.get(dailyPuzzle().answer)!;render(<App/>);
-    await user.type(screen.getByRole('combobox'),answer.name);await user.keyboard('{Enter}');await user.click(screen.getByRole('button',{name:'Guess'}));expect(screen.queryByRole('combobox')).not.toBeInTheDocument();expect(screen.getByText('You found it in 1 of 6 guesses. Nicely connected.')).toBeInTheDocument();expect(loadState().daily[utcDate()].status).toBe('won');expect(screen.getByText('Five largest creditors')).toBeInTheDocument();await user.click(screen.getByText(/View all \d+ creditors/));expect(screen.getByRole('table')).toBeVisible();
+    await user.type(screen.getByRole('combobox'),answer.name);await user.keyboard('{Enter}');await user.click(screen.getByRole('button',{name:'Guess'}));expect(screen.queryByRole('combobox')).not.toBeInTheDocument();expect(screen.getByText('You got it in 1 of 6 guesses. Well done!')).toBeInTheDocument();expect(loadState().daily[puzzleDate()].status).toBe('won');expect(screen.getByText('Five largest creditors')).toBeInTheDocument();await user.click(screen.getByText(/View all \d+ creditors/));expect(screen.getByRole('table')).toBeVisible();
   });
   it('handles a sixth incorrect guess, loss reveal, and reloaded completion',async()=>{
     const user=userEvent.setup(),answer=dailyPuzzle().answer;
     const wrong=[...countryById.values()].filter(c=>c.iso3!==answer).slice(0,6);
-    const saved=emptyState();saved.daily[utcDate()]={guesses:wrong.slice(0,5).map(c=>c.iso3),status:'playing'};saveState(saved);
+    const saved=emptyState();saved.daily[puzzleDate()]={guesses:wrong.slice(0,5).map(c=>c.iso3),status:'playing'};saveState(saved);
     const view=render(<App/>);await user.type(screen.getByRole('combobox'),wrong[5].name);await user.keyboard('{Enter}');await user.click(screen.getByRole('button',{name:'Guess'}));
-    expect(screen.getByText('THE MAP REVEALED')).toBeInTheDocument();expect(loadState().daily[utcDate()].status).toBe('lost');expect(screen.queryByRole('combobox')).not.toBeInTheDocument();view.unmount();render(<App/>);expect(screen.getByText('THE MAP REVEALED')).toBeInTheDocument();expect(screen.queryByRole('combobox')).not.toBeInTheDocument();
+    expect(screen.getByText('THE MAP REVEALED')).toBeInTheDocument();expect(loadState().daily[puzzleDate()].status).toBe('lost');expect(screen.queryByRole('combobox')).not.toBeInTheDocument();view.unmount();render(<App/>);expect(screen.getByText('THE MAP REVEALED')).toBeInTheDocument();expect(screen.queryByRole('combobox')).not.toBeInTheDocument();
   });
   it('opens settings and applies dark mode and miles',async()=>{
     const user=userEvent.setup();render(<App/>);await user.click(screen.getByRole('button',{name:'Settings'}));const dialog=screen.getByRole('dialog');await user.click(within(dialog).getByRole('button',{name:'Dark'}));expect(document.documentElement.dataset.theme).toBe('dark');await user.click(within(dialog).getByRole('button',{name:'Miles'}));expect(loadState().preferences.unit).toBe('mi');await user.click(within(dialog).getByRole('button',{name:'Close dialog'}));expect(screen.queryByRole('dialog')).not.toBeInTheDocument();

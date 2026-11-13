@@ -75,11 +75,16 @@ def test_all_creditor_balances_are_copied_from_source(raw,dataset):
     balances={(r['Country Code'],r['Series Code'],r['Counterpart-Area Code']):r['value'] for _,r in raw.iterrows()}
     for c in dataset['countries']:
         assert len({v['id'] for v in c['creditors']})==len(c['creditors'])
+        grouped={}
         for v in c['creditors']:
             if v['code']=='UNALLOCATED':continue
             series=ids.IMF if v['type']=='imf' else ids.PPG
-            assert v['value']==balances[(c['iso3'],series,v['code'])]
+            key=(c['iso3'],series,v['code'])
+            grouped.setdefault(key,[]).append(v['value'])
             assert v['share']==pytest.approx(v['value']/c['totalDebt']*100)
+        for key,values in grouped.items():
+            # Verified 994 subdivisions must sum back to the original source cell.
+            assert math.fsum(values)==pytest.approx(balances[key],abs=0.01,rel=0)
         assert math.fsum(v['share'] for v in c['creditors'])==pytest.approx(100,abs=1e-8)
         assert c['validationStatus'] in {'valid','valid_with_notes'}
         assert -90<=c['centroid']['lat']<=90

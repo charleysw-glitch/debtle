@@ -1,0 +1,4 @@
+"""The reusable scripts are importable in data and parser unit tests."""
+from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))

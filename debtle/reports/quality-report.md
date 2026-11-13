@@ -20,9 +20,9 @@ Tolerance: max($0.01, official total × 1e-10). Positive material residuals beco
 
 ## Classification and limits
 
-All 303 non-World counterpart codes have an explicit, editable mapping in data/creditor-classification.json. Individual institutions, IDA, and IBRD remain separate. Historical sovereign and territorial counterparts remain bilateral; no rule classifies numeric ranges. Codes 896, 897, 922, 939, 946 and 962 use conservative other/unclassified treatment, as do 994 and FCW. Positive unclassified balances are flagged per country, but do not invalidate reconciled data.
+All 303 non-World counterpart codes have an explicit, editable mapping in data/creditor-classification.json. Individual institutions, IDA, and IBRD remain separate. Historical sovereign and territorial counterparts remain bilateral; no rule classifies numeric ranges. Codes 896, 897, 922, 939, 946 and 962 use conservative other/unclassified treatment, while 994 uses reconciled country-specific evidence and FCW remains separate. Multiple Lenders is not an Unallocated residual. Positive unclassified balances are flagged per country, but do not invalidate reconciled data.
 
-Positive other/multiple-lender codes in this extract: 896, 922, 994.
+Positive unresolved/other codes in this extract: 896, 922, 994.
 
 Review/quarantined countries: none. All IMF 907/World comparisons pass for eligible countries.
 
@@ -30,4 +30,4 @@ Geographic coordinates: area-weighted planar geographic centroids derived from N
 
 Source coverage is limited to reporting debtors; this is not every country in the world. The measure is PPG external debt plus IMF credit, not total public debt or total external debt. Empty cells cannot establish the absence of every possible creditor relationship.
 
-See reconciliation.csv for every country, discrepancy, IMF duplicate check, observed zero count, percentage sum, validation status and warnings.
+See reconciliation.csv for every country, discrepancy, IMF duplicate check, observed zero count, percentage sum, validation status and warnings. See multiple-lenders-report.md and multiple-lenders.csv for every positive 994 balance, source, verified classification, split, rounding adjustment, and unresolved case.
